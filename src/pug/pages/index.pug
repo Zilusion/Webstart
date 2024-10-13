@@ -1,0 +1,30 @@
+extends ./../layouts/layout.pug
+
+block header
+    include ./../components/header.pug
+
+block content
+    main.main 
+        .container.main__container 
+            hgroup.main__titles 
+                h1.main__title Welcome to Base project!
+                h2.main__subtitle Made by Sudorgin Daniil
+            .main__image-wrapper
+                img.main__image(src="./assets/images/sudorgin-daniil.jpg" alt="Sudorgin Daniil")
+        .container--full .container--full 
+            p.demo__text
+            .container__demo Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae mollitia odio, ipsa quibusdam error quisquam iusto ad nostrum eaque officiis quasi perspiciatis at est quas corporis non! Aut consequatur ut, et, veritatis impedit laudantium, officia ex delectus id repellat nobis tenetur ad rem quas similique adipisci quisquam maxime blanditiis. Illo!
+        .container--left-50 .container--left-50
+            .container__demo Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae mollitia odio, ipsa quibusdam error quisquam iusto ad nostrum eaque officiis quasi perspiciatis at est quas corporis non! Aut consequatur ut, et, veritatis impedit laudantium, officia ex delectus id repellat nobis tenetur ad rem quas similique adipisci quisquam maxime blanditiis. Illo!
+        .container--right-50 .container--right-50   
+            .container__demo Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae mollitia odio, ipsa quibusdam error quisquam iusto ad nostrum eaque officiis quasi perspiciatis at est quas corporis non! Aut consequatur ut, et, veritatis impedit laudantium, officia ex delectus id repellat nobis tenetur ad rem quas similique adipisci quisquam maxime blanditiis. Illo!
+        .container--left .container--left
+            .container__demo Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae mollitia odio, ipsa quibusdam error quisquam iusto ad nostrum eaque officiis quasi perspiciatis at est quas corporis non! Aut consequatur ut, et, veritatis impedit laudantium, officia ex delectus id repellat nobis tenetur ad rem quas similique adipisci quisquam maxime blanditiis. Illo!
+        .container--right .container--right
+            .container__demo Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae mollitia odio, ipsa quibusdam error quisquam iusto ad nostrum eaque officiis quasi perspiciatis at est quas corporis non! Aut consequatur ut, et, veritatis impedit laudantium, officia ex delectus id repellat nobis tenetur ad rem quas similique adipisci quisquam maxime blanditiis. Illo! 
+        .container--half-left .container--half-left
+            .container__demo Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae mollitia odio, ipsa quibusdam error quisquam iusto ad nostrum eaque officiis quasi perspiciatis at est quas corporis non! Aut consequatur ut, et, veritatis impedit laudantium, officia ex delectus id repellat nobis tenetur ad rem quas similique adipisci quisquam maxime blanditiis. Illo! 
+        .container--half-right .container--half-right
+            .container__demo Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae mollitia odio, ipsa quibusdam error quisquam iusto ad nostrum eaque officiis quasi perspiciatis at est quas corporis non! Aut consequatur ut, et, veritatis impedit laudantium, officia ex delectus id repellat nobis tenetur ad rem quas similique adipisci quisquam maxime blanditiis. Illo!
+block footer
+    include ./../components/footer.pug

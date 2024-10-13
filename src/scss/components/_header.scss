@@ -1,0 +1,23 @@
+@use "../base/variables" as variables;
+
+.header {
+	z-index: 10;
+	background-color: variables.$blue;
+	padding: 5px 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+	&__container {
+		display: flex;
+		align-items: center;
+	}
+
+	&__title {
+		color: variables.$white;
+	}
+
+	&__nav {
+		margin-left: auto;
+	}
+}

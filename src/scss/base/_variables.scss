@@ -1,0 +1,43 @@
+$background-color: #FFFFFF;
+$text-color: #333333;
+
+$font-main: 'Roboto', sans-serif;
+$font-accent: 'Roboto', sans-serif;
+
+$container-width: 1200px;
+$container-padding: 15px;
+
+// $laptop-size: 1199px;
+// $tablet-size: 959px;
+// $mobile-size: 599px;
+
+// Base colors
+$transparent: transparent;
+$blue: #06255b;
+$orange: #da5d24;
+$white: #ffffff;
+$black: #000000;
+$gray: #737b7d;
+$light-gray: #abb5c7;
+
+// Text colors
+$text-black: $black;
+$text-white: $white;
+$text-gray: $gray;
+$text-orange: $orange;
+
+// Button colors
+$button-background-color: $orange;
+$button-text-color: $white;
+
+// Links colors
+$link-color: $blue;
+$link-hover-color: $blue;
+
+// Breakpoints
+$xs: 320px;
+$sm: 480px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1440px;
+$xxl: 1728px;

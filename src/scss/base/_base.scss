@@ -1,0 +1,21 @@
+@use "../base/variables" as variables;
+
+html {
+	scroll-behavior: smooth;
+	font-family: Roboto;
+}
+
+body {
+	background-color: variables.$background-color;
+	color: variables.$text-color;
+}
+
+html, body {
+	height: 100%;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}

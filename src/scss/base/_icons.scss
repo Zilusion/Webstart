@@ -1,0 +1,14 @@
+.icon {
+	fill: transparent;
+	stroke: transparent;
+	width: 40px;
+	height: 40px;
+}
+
+.icon--telegram {
+	fill: white;
+	transition: 0.1s ease-in;
+	&:hover {
+		fill: #78caf3;
+	}
+}

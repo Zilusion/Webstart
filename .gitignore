@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+
+# Compiled output
+build/
+
+# OS generated files
+.DS_Store
+
+# IDE files
+.vscode/
